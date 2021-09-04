@@ -9,7 +9,7 @@ run_with_ngrok(app)
 def inicio():
     return f.render_template("intentodescript.html")
 
-
+#zuñigay
 if __name__ == "__main__":
     app.config['DEBUG'] = True
     app.run()
